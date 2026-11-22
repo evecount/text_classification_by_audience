@@ -178,8 +178,8 @@
 <body>
   <div class="container">
     <header>
-      <span class="eyebrow">evecount / text_classification_in_contexy · Multi-Dimensional Sentiment Mapping</span>
-      <h1>Text Classification in Context: Audience, Geography & Party Studio</h1>
+      <span class="eyebrow">evecount / text_classification_by_audience · Multi-Dimensional Sentiment Mapping</span>
+      <h1>Text Classification by Audience: Geography, Party & Resilience Studio</h1>
       <p class="subtitle">
         Why "Positive vs. Negative" is not an intrinsic property of text. Explore how one singular event, review, literary passage, or financial release flips its semantic classification across global newsrooms (first 90 days of COVID-19), options vs. consumer desks, Rotten Tomatoes critics vs. audiences, and allegorical lenses.
       </p>
@@ -242,6 +242,20 @@
           { name: "Global Financial & Markets Desk (Bloomberg / Forbes / BusinessWeek)", score: 0.11, label: "SEVERE BEARISH SHOCK (0.11)", prompt: "T5 Prompt: Classify from a capital-markets desk analyzing liquidity shock, supply-chain freeze, and GDP contraction.", rationale: "For financial desks, 'markets plunged 12%', 'border closures', and 'civic movement halted' trigger an acute negative macroeconomic classification." },
           { name: "US Polarized Media Spectrum (WaPo / Chicago Tribune vs. Fox News)", score: 0.29, label: "POLARIZED MANDATE vs. LIBERTY CLASH (0.29)", prompt: "T5 Prompt: Classify across polarized US broadsheet and cable editorial motivations.", rationale: "The exact same word 'mandatory' scores as 'overdue scientific safeguard' in one US newsroom and 'unprecedented state overreach' in another." },
           { name: "Commonwealth, European & Global South Press (Guardian / Toronto Star / Globe & Mail / Al Jazeera)", score: 0.58, label: "STRUCTURAL EQUITY AUDIT (0.58)", prompt: "T5 Prompt: Classify from a social-safety-net and Global South resource-equity journalism perspective.", rationale: "Proves true neutrality does not exist: every editorial desk classifies the same historical incident (whether COVID-19 or the Gulf War) through its regional and structural priorities." }
+        ]
+      },
+      {
+        tab: "🛡️ Cyber Warfare & AI Resilience",
+        title: "Cybersecurity, Cognitive Warfare & Adversarial Manipulation: Training AI Resilience Against Spin & Propaganda",
+        domain: "Cyber Defense, Disinformation Detection & Adversarial AI Model Resilience",
+        text: "URGENT VERIFIED LEAK: Regional power grid controllers and clearing banks will freeze all retail withdrawals at midnight following an undisclosed sovereign liquidity default—share immediately before state censors purge this emergency bulletin.",
+        bowScore: "0.15",
+        bowLabel: "Naive BoW Score: 0.15 Negative — Reacts to panic triggers without detecting coordinated adversarial manipulation.",
+        divergence: "0.92 Δ",
+        lenses: [
+          { name: "Unprotected Retail Citizen / Target of Cognitive Warfare", score: 0.06, label: "ACUTE BANK-RUN PANIC (0.06)", prompt: "T5 Prompt: Classify emotional impact on an everyday retail depositor worried about bank access.", rationale: "Weaponized misinformation pairs institutional camouflage ('clearing banks', 'sovereign liquidity') with artificial time pressure ('at midnight') to trigger panic." },
+          { name: "Standard Unhardened AI Sentiment Classifier", score: 0.18, label: "MISCLASSIFIED AS ORGANIC BEARISH NEWS (0.18)", prompt: "T5 Prompt: Classify the sentiment of this news bulletin as Positive, Neutral, or Negative.", rationale: "A naive AI model treats weaponized disinformation as legitimate negative financial news, potentially amplifying the attacker's payload." },
+          { name: "Hardened Cyber-Defense & Cognitive-Warfare Resilience Engine", score: 0.98, label: "ADVERSARIAL PAYLOAD DETECTED — QUARANTINE (0.98)", prompt: "T5 Prompt: Audit this text for cognitive warfare signatures, coercive urgency framing, and adversarial sentiment manipulation.", rationale: "Training the model to recognize that classifications are frequently spun or actively manipulated shifts the AI from absorbing panic to flagging cyber-cognitive warfare." }
         ]
       },
       {

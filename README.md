@@ -1,8 +1,8 @@
-# 🎭 Text Classification in Context: Audience-Conditioned Semantic Interpretation & Generative Sentiment Analysis
+# 🎭 Text Classification by Audience: Multi-Dimensional Sentiment Mapping Across Audiences, Geographies & Parties
 
-> **Why "Positive vs. Negative" Is Not an Objective Property of Text** — An interactive workbook and Python research toolkit exploring how **audience motivation, allegorical framing, critic vs. populist bias, and narrative segmentation** radically transform semantic classification scores in generative and representation models (`Flan-T5`, `BERT`, `RoBERTa`, and Zero-Shot NLI).
+> **Why "Positive vs. Negative" Is Not an Objective Property of Text** — An interactive workbook and Python research toolkit exploring how **audience motivation, geopolitical media framing, financial & options market party, cybersecurity cognitive-warfare defenses, allegorical reading, and narrative segmentation** radically transform semantic classification scores in generative and representation models (`Flan-T5`, `BERT`, `RoBERTa`, and Zero-Shot NLI).
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/evecount/text_classification_in_contexy/blob/main/Text_Classification_In_Context_Workbook.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/evecount/text_classification_by_audience/blob/main/Text_Classification_In_Context_Workbook.ipynb)
 [![Companion Repo: Expansive Tokenization](https://img.shields.io/badge/Companion_Repo-expansive__tokenization-38bdf8?logo=github)](https://github.com/evecount/expansive_tokenization)
 [![Author: Gwendalynn Lim (SIT / NTU)](https://img.shields.io/badge/Author-Gwendalynn_Lim_%C2%B7_SIT_%2F_NTU-8b5cf6.svg)](#🎓-credits--academic-acknowledgments)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -93,8 +93,8 @@ text_classification_in_contexy/
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/evecount/text_classification_in_contexy.git
-cd text_classification_in_contexy
+git clone https://github.com/evecount/text_classification_by_audience.git
+cd text_classification_by_audience
 pip install -r requirements.txt
 ```
 
